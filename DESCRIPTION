@@ -26,5 +26,5 @@ Suggests:
     testthat (>= 3.0.0)
 Language: en-GB
 URL: https://github.com/the-kids-biostats/quartomatic, https://the-kids-biostats.github.io/quartomatic/
-BugReports: https://github.com/the-kids-biostats/thekidsbiostats/quartomatic/issues
+BugReports: https://github.com/the-kids-biostats/quartomatic/issues
 Config/testthat/edition: 3
