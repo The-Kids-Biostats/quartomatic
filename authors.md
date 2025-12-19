@@ -13,7 +13,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/the-kids-biostats/thekidsbiostats/blob/main/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/the-kids-biostats/quartomatic/blob/main/DESCRIPTION)
 
 Dempsey Z, Cook R, Billingham W, Cooper M (2025). *quartomatic:
 Interactively Customise Quarto Templates*. R package version 0.0.0.9000,
