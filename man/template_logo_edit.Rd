@@ -6,9 +6,6 @@
 \usage{
 template_logo_edit()
 }
-\arguments{
-\item{project_root}{Path to the root of the R project}
-}
 \value{
 A Shiny application that runs within RStudio.
 }

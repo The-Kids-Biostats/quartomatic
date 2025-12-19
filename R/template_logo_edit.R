@@ -6,7 +6,6 @@
 #' Writes logo_meta.json with timestamp. After save, opens destination folder in OS file explorer
 #' or RStudio Files pane so user can navigate to the saved logo.
 #'
-#' @param project_root Path to the root of the R project
 #' @return A Shiny application that runs within RStudio.
 #'
 #' @export

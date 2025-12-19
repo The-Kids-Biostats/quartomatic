@@ -15,7 +15,7 @@ parse_qmd_banner_colour <- function(qmd_path) {
 parse_css_colors <- function(css_path) {
   css <- paste(readLines(css_path, warn = FALSE), collapse = "\n")
   types <- c("note","tip","warning","important")
-  out <- setNames(vector("list", length(types)), types)
+  out <- stats::setNames(vector("list", length(types)), types)
   for (t in types) {
     bg_pattern <- paste0("\\.callout-", t, "\\s*\\{[^}]*?background-color:\\s*([^;]+);")
     bg_match <- regmatches(css, regexec(bg_pattern, css, perl = TRUE))[[1]]
